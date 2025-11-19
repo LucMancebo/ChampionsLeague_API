@@ -1,4 +1,4 @@
-import { Request, response, Response } from "express";
+import { Request, Response } from "express";
 import * as service from "../services/playersService";
 import { badRequest, noContent } from "../utils/HTTPHelper";
 import { StatisticsModel } from "../Models/statistcsModel";

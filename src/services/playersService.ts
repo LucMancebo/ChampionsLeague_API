@@ -1,4 +1,4 @@
-import * as playerData from "../data/playersData";
+import * as playerData from "../Repositories/playersData";
 import { playerModel } from "../Models/playerModel";
 import { StatisticsModel } from "../Models/statistcsModel";
 import * as HttpResponse from "../utils/HTTPHelper";

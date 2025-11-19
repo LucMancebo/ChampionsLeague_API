@@ -1,6 +1,7 @@
 import express from "express";
 import { getPlayer } from "./controllers/playersController";
 import router from "./Routes/routes";
+import cors from "cors"
 
 function createapp() {
   // Cria uma instância do aplicativo Express
@@ -13,6 +14,13 @@ function createapp() {
 
   // Define uma rota GET para a raiz do aplicativo
   app.get("/", getPlayer);
+
+const corsOptions = {
+  origin: {},
+  method: {}
+}
+
+  app.use(cors())
 
   return app;
 }
