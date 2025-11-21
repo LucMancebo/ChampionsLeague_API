@@ -97,8 +97,6 @@ Essa estrutura garante uma API mais profissional, organizada e fácil de escalar
 
 ## 🚀 Como Rodar
 
-1. Clone o repositório
-
    ```bash
    git clone https://github.com/LucMancebo/ChampionsLeague_API.git
 
